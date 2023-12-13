@@ -6,13 +6,14 @@ function [lambda_out,adopt,agopt] = Partition_ADG_VIS(lambda_adg,adg,PT)
 %the visible (VIS) spectral region covering the light wavelength range from
 %400 to 700 nm.
 %
-%%Reference:
+%Reference:
 %
 %Kehrli M. D., Stramski D., Reynolds R. A., Joshi I. D., A model for
-%partitioning the non-phytoplankton absorption coefficient of seawater into
-%the contributions of non-algal particulate matter and CDOM in the
-%ultraviolet and visible spectral region. In preparation for submission to
+%partitioning the non-algal absorption coefficient of seawater in the
+%ultraviolet and visible spectral range into the contribution of non-algal
+%particulate and dissolved matter. In preparation for submission to
 %Applied Optics (Referenced in code documentation as KSRJ).
+%
 %
 %Required function inputs: lambda_adg, adg, PT
 %   lambda_adg [m-by-1 numeric]: Input values of light wavelength [nm]
@@ -51,14 +52,18 @@ function [lambda_out,adopt,agopt] = Partition_ADG_VIS(lambda_adg,adg,PT)
 %   additional desired percentile solutions from the pool of feasible
 %   solutions (remaining output column(s)).
 %
-%Version history: 2023-11-09: Partition_ADG_VIS.m, revised ADG partitioning
-%model and Matlab version, M. D. Kehrli, D. Stramski, R. A. Reynolds, I. D.
-%Joshi.
+%Version 1.0 (v1.0)
 %
-%Adapted from: 2019-01-28: GSCM_insitu_adg_final.m, original ADG
+%Version history: 
+%2023-11-09: Revised ADG partitioning model and Matlab version, M. D.
+%Kehrli, D. Stramski, R. A. Reynolds, I. D. Joshi.
+%202X-XX-XX: Final revised MATLAB version (v1.0), M. Kehrli, D. Stramski,
+%R. A. Reynolds, and I. D. Joshi
+%
+%Adapted from: GSCM_insitu_adg_final.m (2019-01-28), original ADG
 %partitioning model and Matlab version, L. Li, R. A. Reynolds, D. Stramski,
-%described in Stramski, Li, Reynolds, 2019, Applied Optics [doi:
-%10.1364/AO.58.003790].
+%described in Stramski, Li, Reynolds, 2019, Applied Optics, 58, 3790-3806.
+%[doi: 10.1364/AO.58.003790].
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %check input arguments and set defaults for optional input parameters
