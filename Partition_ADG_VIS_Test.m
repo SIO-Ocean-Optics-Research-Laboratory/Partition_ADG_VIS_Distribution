@@ -1,20 +1,21 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Test script for the ADG extrapolation model code. The ADG ext code is run
-%for one specified input of ag and adg at specified hyperspectral
-%wavelengths (lambda). The resulting output from the test script is saved
-%to ADG_part_test_run_yyyymmdd.xls for comparison with the provided output
-%file ADG_part_test_run.xls.
+%Test script for the ADG partitioning model code called
+%“Partition_ADG_VIS”. The Partition_ADG_VIS code is run for one specified
+%input of ag and adg at specified hyperspectral wavelengths (lambda). The
+%resulting output from the test script is saved to
+%Partition_ADG_VIS_Test_Run_yyyymmdd.xls for comparison with the provided
+%output file Partition_ADG_VIS_Test_Run_xls.
 %
 %Reference:
 %
-%Kehrli, M. D., Stramski, D., Reynolds, R. A., & Joshi, I. D. (2023).
-%Estimation of chromophoric dissolved organic matter and non-algal
-%particulate absorption coefficients of seawater in the ultraviolet by
-%extrapolation from the visible spectral region. Optics Express, 31(11),
-%17450. https://doi.org/10.1364/OE.486354
+%Kehrli M. D., Stramski D., Reynolds R. A., Joshi I. D., A model for
+%partitioning the non-algal absorption coefficient of seawater in the
+%ultraviolet and visible spectral range into the contribution of non-algal
+%particulate and dissolved matter. In preparation for submission to
+%Applied Optics.
 %
 %Created: July 31, 2023
-%Completed: August 14, 2023
+%Completed: 202X-XX-XX
 %Updates: 
 %
 %M. D. Kehrli, D. Stramski, R. A. Reynolds, and I. D. Joshi
