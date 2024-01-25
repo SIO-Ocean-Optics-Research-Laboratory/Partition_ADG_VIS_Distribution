@@ -11,8 +11,8 @@ function [lambda_out,adopt,agopt] = Partition_ADG_VIS(lambda_adg,adg,PT)
 %Kehrli M. D., Stramski D., Reynolds R. A., Joshi I. D., A model for
 %partitioning the non-algal absorption coefficient of seawater in the
 %ultraviolet and visible spectral range into the contribution of non-algal
-%particulate and dissolved matter. In preparation for submission to
-%Applied Optics (Referenced in code documentation as KSRJ).
+%particulate and dissolved matter. Submitted to Applied Optics January 24, 
+%2024 (Referenced in code documentation as KSRJ).
 %
 %
 %Required function inputs: lambda_adg, adg, PT
@@ -57,7 +57,7 @@ function [lambda_out,adopt,agopt] = Partition_ADG_VIS(lambda_adg,adg,PT)
 %Version history: 
 %2023-11-09: Revised ADG partitioning model and Matlab version, M. D.
 %Kehrli, D. Stramski, R. A. Reynolds, I. D. Joshi.
-%202X-XX-XX: Final revised MATLAB version (v1.0), M. Kehrli, D. Stramski,
+%2024-01-25: Final revised MATLAB version (v1.0), M. Kehrli, D. Stramski,
 %R. A. Reynolds, and I. D. Joshi
 %
 %Adapted from: GSCM_insitu_adg_final.m (2019-01-28), original ADG
