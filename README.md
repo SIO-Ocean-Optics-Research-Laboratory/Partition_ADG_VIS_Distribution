@@ -1,7 +1,7 @@
 # Partition_ADG_VIS_Distribution
 ---
 
-The ADG partitioning model separates the non-phytoplankton absorption coefficient, a<sub>dg</sub>, into the chromophoric dissolved organic matter (CDOM) absorption coefficient, a<sub>g</sub>(λ), and non-algal (depigmented) particulate absorption coefficient, a<sub>d</sub>. The model partitions an input spectrum of a<sub>dg</sub>(λ) using predefined libraries of spectral shape functions for a<sub>d</sub> and a<sub>g</sub>. This version of the model is configured for use in the visible spectral range (VIS, 400 to 700 nm) and utilizes spectral shape libraries specifically defined for this spectral range. The complete development and validation of the ADG partitioning model will be described in [Kehrli et al., 2024. *Appl. Opt., submitted January 2024*]. The model source code is in MATLAB file format.
+The ADG partitioning model separates the non-phytoplankton absorption coefficient, a<sub>dg</sub>, into the chromophoric dissolved organic matter (CDOM) absorption coefficient, a<sub>g</sub>(λ), and non-algal (depigmented) particulate absorption coefficient, a<sub>d</sub>. The model partitions an input spectrum of a<sub>dg</sub>(λ) using predefined libraries of spectral shape functions for a<sub>d</sub> and a<sub>g</sub>. This version of the model is configured for use in the visible spectral range (VIS, 400 to 700 nm) and utilizes spectral shape libraries specifically defined for this spectral range. The complete development and validation of the ADG partitioning model will be described in [Kehrli et al., 2024. *Appl. Opt., submitted January 24, 2024*]. The model source code is in MATLAB file format.
 
 This README document provides information about the files within the Partition_ADG_VIS_Distribution repository.
 
