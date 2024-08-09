@@ -8,11 +8,12 @@
 %
 %Reference:
 %
-%Kehrli, M. D., Stramski, D., Reynolds, R. A., Joshi, I. D., A model for
-%partitioning the non-phytoplankton absorption coefficient of seawater in the
-%ultraviolet and visible spectral range into the contribution of non-algal
-%particulate and dissolved organic matter. Submitted to Applied Optics January 24, 
-%2024 (Referenced in code documentation as KSRJ).
+%Kehrli, M. D., Stramski, D., Reynolds, R. A., & Joshi, I. D. (2024). Model
+%for partitioning the non-phytoplankton absorption coefficient of seawater
+%in the ultraviolet and visible spectral range into the contributions of
+%non-algal particulate and dissolved organic matter. Applied Optics,
+%63(16), 4252–4270. https://doi.org/10.1364/AO.517706 (Referenced in code
+%documentation as KSRJ).
 %
 %Created: July 31, 2023
 %Completed: 2024-01-25

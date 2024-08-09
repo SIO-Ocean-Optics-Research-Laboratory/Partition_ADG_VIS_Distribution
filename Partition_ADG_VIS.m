@@ -8,12 +8,12 @@ function [lambda_out,adopt,agopt] = Partition_ADG_VIS(lambda_adg,adg,PT)
 %
 %Reference:
 %
-%Kehrli, M. D., Stramski, D., Reynolds, R. A., Joshi, I. D., A model for
-%partitioning the non-phytoplankton absorption coefficient of seawater in the
-%ultraviolet and visible spectral range into the contribution of non-algal
-%particulate and dissolved organic matter. Submitted to Applied Optics January 24, 
-%2024 (Referenced in code documentation as KSRJ).
-%
+%Kehrli, M. D., Stramski, D., Reynolds, R. A., & Joshi, I. D. (2024). Model
+%for partitioning the non-phytoplankton absorption coefficient of seawater
+%in the ultraviolet and visible spectral range into the contributions of
+%non-algal particulate and dissolved organic matter. Applied Optics,
+%63(16), 4252–4270. https://doi.org/10.1364/AO.517706 (Referenced in code
+%documentation as KSRJ).
 %
 %Required function inputs: lambda_adg, adg, PT
 %   lambda_adg [m-by-1 numeric]: Input values of light wavelength [nm]
